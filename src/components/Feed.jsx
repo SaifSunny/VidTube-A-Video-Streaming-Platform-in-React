@@ -8,12 +8,12 @@ import { fetchFromAPI } from "../utils/fetchFromAPI";
 
 const Feed = () => {
 
-  const [selectedCategory, setSelectedCategory] = useState('New')
-  const [videos, setVideos] = useState([]);
+const [selectedCategory, setSelectedCategory] = useState('New')
+const [videos, setVideos] = useState([]);
 
-  useEffect(() => {
-    fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) => setVideos(data.items))
-  }, [selectedCategory]);
+useEffect(() => {
+fetchFromAPI(`search?part=snippet&q=${selectedCategory}`).then((data) => setVideos(data.items))
+}, [selectedCategory]);
 
 return (
 <Stack sx={{ 
@@ -23,13 +23,12 @@ return (
       }}>
 
   <Box sx={{height: {sx: 'auto', md: '92vh'}, borderRight: '1px solid #3d3d3d', px: {sx:0, md:2}}}>
-    <SideBar 
-      selectedCategory = {selectedCategory}
-      setSelectedCategory = {setSelectedCategory}
-    />
+    <SideBar selectedCategory={selectedCategory} setSelectedCategory={setSelectedCategory} />
 
-    <Typography className="copyright" variant="body2" sx={{mt: 1.5, color: '#fff'}}>
-      Copyright 2023 @Saif Sunny
+    <Typography className="copyright" variant="body2"
+      sx={{mt: 1.5, color: 'grey', fontFamily: 'roboto', fontSize: '12px', marginTop: "18px"}}>
+      Copyright 2023
+      @Saif Sunny
     </Typography>
   </Box>
 
@@ -38,7 +37,7 @@ return (
       {selectedCategory} <span style={{color: '#F31503'}}>Videos</span>
     </Typography>
 
-    <Videos videos={videos}/>
+    <Videos videos={videos} />
   </Box>
 </Stack>
 )
