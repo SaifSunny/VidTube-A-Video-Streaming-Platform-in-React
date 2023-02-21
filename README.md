@@ -1,6 +1,19 @@
-# Getting Started with Create React App
+# VidTube
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+VidTube is a video streaming website built using React, Material UI, and Rapid API. It is designed to provide an intuitive user experience, allowing users to easily search and watch videos from various sources.
+
+# Demo
+A live demo of VidTube can be found at https://cozy-starlight-5e2064.netlify.app/
+
+# Features
+1. Video Search: Users can search for videos from various sources using keywords.
+2. Video List: Users can view a list of videos based on their search query or selected category.
+3. Video Detail Page: Users can view detailed information about a selected video, including the video description, view count, and like count.
+4. Sort Videos via Category: Users can filter videos by category, such as music, sports, or entertainment.
+5. View Channel: Users can view the channel associated with a selected video and see other videos uploaded by the same channel.
+6. Play Video: Users can watch videos directly on the website.
+7. Related Video Section: Users can view a list of related videos based on the selected video.
+8. Responsive Design: VidTube is designed to work seamlessly across all devices, from desktops to mobile phones.
 
 ## Available Scripts
 
