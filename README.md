@@ -3,6 +3,10 @@
 VidTube is a video streaming website that allows users to browse and watch videos from YouTube's vast collection. The website has been built using React and Material UI, and it uses RapidAPI to fetch data from YouTube's API.
 
 # Demo
+![Screenshot (844)](https://user-images.githubusercontent.com/72490093/220345195-d083b6d3-d927-4e33-9ca7-d9a9888fd1ec.png)
+![Screenshot (845)](https://user-images.githubusercontent.com/72490093/220345210-8d220456-1357-4afb-af07-64a252285689.png)
+![Screenshot (846)](https://user-images.githubusercontent.com/72490093/220345219-8d1f590a-14bc-4491-a23a-235a134f56b2.png)
+
 A live demo of VidTube can be found at https://cozy-starlight-5e2064.netlify.app/
 
 # Features
